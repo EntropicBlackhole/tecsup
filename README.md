@@ -8,7 +8,8 @@
 * git log --oneline
 * git log --oneline --graph
 * git show \<hash>
-* git add 
+* git remote add origin https://github.com/EntropicBlackhole/tecsup.git
 * git branch -M main
 * git push -u origin main
 * git remote remove
+* git pull
