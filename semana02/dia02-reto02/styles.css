@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+:root {
+    --tomato: hsl(4, 100%, 67%);
+
+    --dark-slate-gray: hsl(234, 29%, 20%);
+    --charcoal-gray: hsl(235, 18%, 26%);
+    --gray: hsl(231, 7%, 60%);
+    --white: hsl(0, 0%, 100%);
+}
+
+.container {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    background-color: var(--white);
+    border-radius: 2rem;
+    padding: 20px;
+    margin: 20px;
+    width: 640px;
+    height: 435px;
+    vertical-align: center;
+    justify-content: center;
+}
+
+body {
+    background-color: var(--charcoal-gray);
+    align-items: center;
+    vertical-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    width: 300px;
+    /* height: 200px; */
+    background-image: url('./assets/images/illustration-sign-up-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 7px
+}
+
+.content {
+    /* background-color: var(--tomato); */
+    width: 320px;
+    padding-right: 20px;
+    padding-left:1rem;
+    /* align-items: center; */
+    /* vertical-align: middle; */
+    /* border-radius: 0 7px 7px 0; */
+}
+
+.email-text {
+    color: var(--dark-slate-gray);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.email-input {
+    border: 10;
+    padding: 14px;
+    width: 90%;
+    border: 0;
+    border-radius: 6px;
+    box-shadow: 1px 1px 3px;
+}
+
+.button {
+    background-color: var(--charcoal-gray);
+    border: 0;
+    vertical-align: middle;
+    justify-content: center;
+    color: white;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    padding: 14px;
+    border-radius: 7px;
+    margin-top: 20px;
+    display: flex;
+    cursor: pointer;
+}
+
+.list {
+    list-style-image: url('./assets/images/icon-list.svg');
+    font-size: 13px;
+    line-height: 2.8;
+vertical-align: middle;
+    line-height: 1.5;
+    /* display: flex; */
+    /* flex-direction: column; */
+
+    /* justify-items: start; */
+    /* align-content: start; */
+}
+
+li {
+    /* text-align: justify; */
+    /* text-align: center; */
+    /* vertical-align: text-top; */
+}
+h1 {
+    font-size: 44px;
+    color: var(--dark-slate-gray)
+}
+
+p {
+    font-size: 16px;
+    color: var(--charcoal-gray);
+}
