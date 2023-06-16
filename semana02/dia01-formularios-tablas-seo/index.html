@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+</head>
+
+<body>
+    <main class="container">
+        <h1>Formularios + Inputs + Validaciones</h1>
+        <form>
+            <h2>Inputs</h2>
+            <label>
+                Input tipo texto
+                <input type="text" placeholder="Ingrese algun texto" name="text"/>
+            </label>
+            <label>
+                Input (Desactivado)
+                <input type="text" placeholder="Ingrese algun texto" disabled />
+            </label>
+            <label>
+                Input (Solo lectura)
+                <input type="text" readonly value="No puedes editar esto" />
+            </label>
+            <label>
+                Input tipo number
+                <input type="number" placeholder="Ingrese algun numero" />
+            </label>
+            <label>
+                Input tipo correo
+                <input type="email" placeholder="entropicblackhole@gmail.com" />
+            </label>
+            <label>
+                Input tipo range
+                <input type="range" />
+            </label>
+            <label>
+                Input tipo telefono
+                <input type="tel" placeholder="(51) 999999999" />
+            </label>
+            <label>
+                Input tipo url
+                <input type="url" placeholder="https://youtube.com" />
+            </label>
+            <label>
+                Input tipo password
+                <input type="password" placeholder="https://youtube.com" />
+            </label>
+            <label>
+                Input tipo color
+                <input type="color" />
+            </label>
+            <label>
+                Input tipo search
+                <input type="search" />
+            </label>
+            <label>
+                Input tipo file
+                <input type="file" />
+            </label>
+            <label>
+                Input tipo file
+                <input type="file" accept="image/*" />
+            </label>
+            <label>
+                Input tipo file
+                <input type="file" accept=".jpg, .png" />
+            </label>
+            <label>
+                Input tipo file
+                <input type="file" accept=".jpg, .png" multiple />
+            </label>
+            <label>
+                Input tipo hidden
+                <input type="hidden" value="datos ocultos" />
+            </label>
+            <label>
+                Input tipo submit
+                <input type="submit" />
+            </label>
+            <label>
+                Input tipo reset
+                <input type="reset" />
+            </label>
+            <label>
+                Input tipo datetime-local
+                <input type="datetime-local" />
+            </label>
+        </form>
+        <form>
+            <h2>Textareas</h2>
+            <label>
+                <textarea placeholder="Escribe una descripcion sobre ti" rows="3" cols="4"></textarea>
+            </label>
+            <label>
+                <textarea placeholder="Escribe una descripcion sobre ti" rows="3" disabled></textarea>
+            </label>
+            <input type="submit"/>
+        </form>
+        
+        <form>
+            <h2>Selects</h2>
+            <label>
+                <select name="comidas">
+                    <option value="">Selecciona tu comida favorita</option>
+                    <option value="pe">Peruana</option>
+                    <option value="fr">Francesa</option>
+                    <option value="jp">Japonesa</option>
+                    <option value="us">Americana</option>
+                </select>
+            </label>
+            <input type="submit" />
+        </form>
+        <form>
+            <h2>Checkboxes</h2>
+            <h5>Preferencia de lenguaje</h5>
+            <label>
+                <input type="checkbox" name="english" checked />English
+            </label>
+            <label>
+                <input type="checkbox" name="spanish" />Spanish
+            </label>
+            <label>
+                <input type="checkbox" name="dothraki" disabled />Dothraki
+            </label>
+            <input type="submit" />
+        </form>
+        <form>
+            <h2>Radio Buttons</h2>
+            <label>
+                <input type="radio" name="idioma" value="en" />Ingles
+            </label>
+            <label>
+                <input type="radio" name="idioma" value="es"/>Español
+            </label>
+            <label>
+                <input type="radio" name="idioma" value="qr" checked/>Quechua
+            </label>
+            <input type="submit" />
+        </form>
+        <form>
+            <h2>Create Account</h2>
+            <input type="text" name="username" placeholder="Username" required/>
+            <input type="text" name="email" placeholder="Email" required/>
+            <input type="password" name="password" placeholder="Password" required/>
+            <input type="password" name="confirmpass" placeholder="Confirm password" required/>
+            <input type="number" name="age" placeholder="Age" pattern="\[0-9]{1,2}" min="0" max="99" required/>
+            <textarea name="mensage" rows="4" placeholder="Descripcion de ti"></textarea>
+            <input type="submit" />
+        </form>
+    </main>
+</body>
+
+</html>
