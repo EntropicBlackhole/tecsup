@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+@import url('./modules/access.css');
+@import url('./modules/features.css');
+@import url('./modules/testimonials.css');
+@import url('./modules/hero.css');
+@import url('./modules/collaboration.css');
+@import url('./modules/footer.css');
+@import url('./modules/header.css');
+@import url('./modules/mediaquery.css');
+@import url('./modules/variables.css');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-size: var(--font-size);
+}
+
+body {
+  background-color: var(--primary-dark-blue-into);
+  color: var(--neutral-white);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*
+576px -> pantallas pequeñas (celulares)
+768px -> pantallas pequeñas (tablets y ceulares)
+992px -> pantallas medianas (Desktop)
+1200px -> pantallas grandes (Desktops, TVs)
+*/

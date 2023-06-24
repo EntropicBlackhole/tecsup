@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="header">
+<img class="header__button-menu" src="./assets/menu-icon.svg" />
+<img class="header__button-settings" src="./assets/settings-icon.svg" />
+  </header>
+  <aside class="sidebar">ASIDE</aside>
+  <main class="main">
+    <div class="card">CARD</div>
+    <div class="card">CARD</div>
+    <div class="card">CARD</div>
+    <div class="card">CARD</div>
+    <div class="card">CARD</div>
+    <div class="card">CARD</div>
+  </main>
+
+  <script>
+    const buttonMenu = document.querySelector('.header__button-menu')
+    const sidebarMenu = document.querySelector('.sidebar')
+
+    buttonMenu.addEventListener('click', () => {
+        sidebarMenu.classList.toggle('sidebar--open')
+    })
+  </script>
+</body>
+</html>

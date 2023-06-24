@@ -1,0 +1,61 @@
+@media (min-width: 768px) {
+    .features {
+        grid-template-columns: 340px 340px;
+    }
+}
+
+@media (min-width: 768px) {
+    .colaboration {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 768px) {
+    .how_works {
+        width: 33rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .testimonials {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 768px) {
+    .access form {
+        width: 100%;
+    }
+
+    .access input[type=text] {
+        min-width: 30rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .access form {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 768px) {
+    .footer_info {
+        grid-template-columns: 2fr 1fr 0.5fr 0.5fr 1fr;
+    }
+}
+
+@media (min-width: 768px) {
+    #menu-toggle {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .header label {
+        display: none;
+    }
+
+    #menu-toggle {
+        display: none;
+    }
+}
