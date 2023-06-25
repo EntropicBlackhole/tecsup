@@ -1,33 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dashboard</title>
-  <link rel="stylesheet" href="./styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
-  <header class="header">
-<img class="header__button-menu" src="./assets/menu-icon.svg" />
-<img class="header__button-settings" src="./assets/settings-icon.svg" />
-  </header>
-  <aside class="sidebar">ASIDE</aside>
-  <main class="main">
-    <div class="card">CARD</div>
-    <div class="card">CARD</div>
-    <div class="card">CARD</div>
-    <div class="card">CARD</div>
-    <div class="card">CARD</div>
-    <div class="card">CARD</div>
-  </main>
+    <header class="header">
+        <img class="header__button-menu" src="./assets/menu-icon.svg" />
+        <img class="header__button-settings" src="./assets/settings-icon.svg" />
+    </header>
+    <aside class="sidebar"></aside>
+    <main class="main">
+        <div class="card">CARD</div>
+        <div class="card">CARD</div>
+        <div class="card">CARD</div>
+        <div class="card">CARD</div>
+        <div class="card">CARD</div>
+        <div class="card">CARD</div>
+    </main>
+    <aside class="config"></aside>
+    <script>
+        let buttonMenu = document.querySelector('.header__button-menu')
+        let sidebarMenu = document.querySelector('.sidebar')
 
-  <script>
-    const buttonMenu = document.querySelector('.header__button-menu')
-    const sidebarMenu = document.querySelector('.sidebar')
+        let buttonConfig = document.querySelector('.header__button-settings')
+        let sidebarConfig = document.querySelector('.config')
 
-    buttonMenu.addEventListener('click', () => {
-        sidebarMenu.classList.toggle('sidebar--open')
-    })
-  </script>
+        buttonMenu.addEventListener('click', () => {
+            sidebarMenu.classList.toggle('sidebar--open')
+        })
+
+        buttonConfig.addEventListener('click', () => {
+            sidebarConfig.classList.toggle('config--open')
+        })
+    </script>
 </body>
+
 </html>

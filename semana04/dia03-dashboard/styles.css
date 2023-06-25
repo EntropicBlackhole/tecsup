@@ -14,7 +14,7 @@ body {
     margin: 0;
     height: 100vh;
     display: grid;
-    grid-template-columns: var(--sidebarWidth, 300px) 1fr;
+    grid-template-columns: var(--sidebarWidth, 100px) 1fr var(--configWidth, 0px);
     grid-template-rows: 60px 1fr;
     grid-template-areas:
         "side header side2"
@@ -45,8 +45,17 @@ body {
     grid-area: side;
 }
 
+.config {
+    background-color: var(--bg-2);
+    grid-area: side2;
+}
+
 body:has(.sidebar--open) {
-    --sidebarWidth: 100px;
+    --sidebarWidth: 300px;
+}
+
+body:has(.config--open) {
+    --configWidth: 200px;
 }
 
 .main {
