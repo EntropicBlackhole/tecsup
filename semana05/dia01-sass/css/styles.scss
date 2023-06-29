@@ -1,0 +1,15 @@
+@mixin custom-border ($width, $color) {
+    border: $width solid $color;
+}
+
+@mixin default-border {
+    border: 5px solid blue;
+}
+
+@import './card';
+@import './variables';
+
+.body {
+    background-color: $primary-color;
+    text-align: center;
+}
