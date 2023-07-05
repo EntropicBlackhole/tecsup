@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" class="theme-dark">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=, initial-scale=1.0"/>
+		<title>Portafolio</title>
+		<link rel="stylesheet" href="./styles.css" />
+	</head>
+	<body>
+		<header class="header">
+			<img src="design/ca_logo.svg" class="header-logo" />
+			<nav class="header-navcenter-ul">
+				<li class="a">Acerca De Mi</li>
+				<li>Habilidades</li>
+				<li>Portafolio</li>
+			</nav>
+			<nav class="header-navend">
+				<img class="header-navend-theme" id="theme-toggle" src="./design/theme-light.svg" onclick="toggleTheme()"/>
+				<a href="https://github.com/EntropicBlackhole"
+					><img class="header-navend-github" src="./design/github-icon.svg"
+				/></a>
+			</nav>
+		</header>
+		<main class="main">
+			<section class="hero">
+				<h2 class="hero-title">
+					Hola, Soy <u class="hero-title-name">Christopher Acosta</u>
+				</h2>
+				<h1 class="hero-subtitle">Desarollador Web FullStack</h1>
+				<p class="hero-desc">
+					Desarollador especializado en Javascript, React.js, NodeJS y
+					Dart/Flutter
+				</p>
+				<img class="hero-pfp" src="./design/profile-pic.png" />
+				<div class="hero-langs">
+					<img class="hero-lang" src="design/html5-icon.svg" />
+					<img class="hero-lang" src="design/js-icon.svg" />
+					<img class="hero-lang" src="design/nodejs-icon.svg" />
+					<img class="hero-lang" src="design/flutter-icon.svg" />
+				</div>
+			</section>
+			<section class="abilities">
+				<div class="left">
+					<h1 class="abilities-subtitle">Mis habilidades</h3>
+					<h1 class="abilities-title">
+						Mis habilidades de programador incluyen
+					</h1>
+					<p class="abilities-text">
+						Desarollo de aplicaciones web, desarollo de aplicaciones móvil,
+						servidores, base de datos, backend y software en general
+					</p>
+					<p class="abilities-text">
+						Para mas informacion, visita mi pagina de
+						<a href="https://github.com/EntropicBlackhole"
+							class="abilities-text-github">Github
+                        </a>
+					</p>
+				</div>
+				<div class="right">
+					<img src="design/html5-icon.svg" />
+					<img src="design/css-icon.svg" />
+					<img src="design/js-icon.svg" />
+					<img src="design/nodejs-icon.svg" />
+					<img src="design/flutter-icon.svg" />
+					<img src="design/git-icon.svg" />
+				</div>
+			</section>
+			<section class="portfolio">
+				<h2 class="portfolio-subtitle">Mi portafolio</h2>
+				<h1 class="portfolio-title">Trabajos destacados</h1>
+				<div class="portfolio-projects">
+					<img class="portfolio-projects-card" src="design/card.svg"/>
+					<img class="portfolio-projects-card" src="design/card.svg"/>
+					<img class="portfolio-projects-card" src="design/card.svg"/>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<img src="design/ca_logo.svg" class="footer-logo"/>
+			<p>Made with 🍕 by Christopher Acosta - July 2023</p>
+		</footer>
+		<script src="./app.js"></script>
+	</body>
+</html>
