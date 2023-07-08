@@ -1,0 +1,39 @@
+.hero {
+	font-family: var(--font-primary);
+	/* border: 1px solid red; */
+	text-align: center;
+	font-weight: 700;
+}
+.hero-title {
+	/* border: 1px solid orange; */
+	font-size: var(--font-size-subtitle);
+}
+.hero-title-name {
+	/* border: 1px solid yellow; */
+	color: var(--foreground-primary);
+}
+.hero-subtitle {
+	font-size: var(--font-size-title);
+	/* border: 1px solid green; */
+}
+.hero-desc {
+	/* border: 1px solid blue; */
+	font-weight: 400;
+}
+.hero-pfp {
+	/* border: 1px solid violet; */
+	width: 25%;
+	border-radius: 50%;
+	margin-bottom: 2rem;
+}
+.hero-langs {
+	/* border: 1px solid black; */
+	width: 100%;
+	height: 4rem;
+	align-items: center;
+	text-align: center;
+}
+.hero-lang {
+	/* border: 1px solid white; */
+	height: 4rem;
+}

@@ -1,0 +1,37 @@
+.header {
+	/* border: 1px solid red; */
+	padding: 0.7rem;
+	align-items: center;
+	background-color: var(--background-secondary);
+	height: 3rem;
+	display: flex;
+	justify-content: space-between;
+}
+.header-logo {
+	/* border: 1px solid orange; */
+	height: 3rem;
+}
+.header-navcenter-ul {
+	padding-left: 4rem;
+	font-family: var(--font-primary);
+	margin: 0;
+	display: flex;
+	gap: 1rem;
+	/* text-decoration: none; */
+	list-style: none;
+	/* border: 1px solid green; */
+}
+.header-navend {
+	/* border: 1px solid blue; */
+	height: 3rem;
+}
+.header-navend-theme {
+	cursor: pointer;
+	/* border: 1px solid violet; */
+	height: 3rem;
+}
+.header-navend-github {
+	/* border: 1px solid black; */
+	cursor: pointer;
+	height: 3rem;
+}
