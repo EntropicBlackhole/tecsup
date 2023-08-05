@@ -1,0 +1,27 @@
+[
+	{
+		"question": "Cuando fue creado JavaScript?",
+		"answers": ["2004", "1992", "1996"],
+		"correct_answer": 2
+	},
+	{
+		"question": "JavaScript es igual que Java?",
+		"answers": ["Si", "No", "Talvez"],
+		"correct_answer": 1
+	},
+	{
+		"question": "Como se llama la propiedad para obtener la longitdud de una cadena?",
+		"answers": [".length", ".len", ".longitud"],
+		"correct_answer": 0
+	},
+	{
+		"question": "JavaScript es un lenguaje",
+		"answers": ["Orientado a comandos", "Orientado a cosas", "Orientado a objetos"],
+		"correct_answer": 2
+	},
+	{
+		"question": "Como se declara una variable constante?",
+		"answers": ["constant", "const", "var_const"],
+		"correct_answer": 1
+	}
+]

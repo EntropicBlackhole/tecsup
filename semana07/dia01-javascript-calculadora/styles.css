@@ -1,0 +1,9 @@
+.buttons {
+    width: 10rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.display {
+    width: 9.5rem;
+}
